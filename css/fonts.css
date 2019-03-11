@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('../fonts/BebasNeueBold.eot');
+  src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/BebasNeueBold.woff') format('woff'),
+  url('../fonts/BebasNeueBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SF UI Text';
+    font-weight: 500;
+    font-style: normal;
+
+    src: url('SFUIText-Medium.eot');
+    src: url('SFUIText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SFUIText-Medium.woff') format('woff'),
+        url('SFUIText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    font-weight: 300;
+    font-style: normal;
+
+    src: url('SFUIText-Light.eot');
+    src: url('SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+        url('SFUIText-Light.woff') format('woff'),
+        url('SFUIText-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    font-weight: 300;
+    font-style: normal;
+
+    src: url('SFUIDisplay-Light.eot');
+    src: url('SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Light.woff') format('woff'),
+        url('SFUIDisplay-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    font-weight: 900;
+    font-style: normal;
+
+    src: url('SFUIDisplay-Heavy.eot');
+    src: url('SFUIDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Heavy.woff') format('woff'),
+        url('SFUIDisplay-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('SFUIDisplay-Regular.eot');
+    src: url('SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Regular.woff') format('woff'),
+        url('SFUIDisplay-Regular.ttf') format('truetype');
+}

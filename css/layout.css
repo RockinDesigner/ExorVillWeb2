@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+
+  font-size: 10px;
+}
+section {
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+
+#countdown {
+  position: absolute;
+  z-index: 1001;
+  top: 50%;
+  left: 50%;
+
+  text-align: center;
+
+  color: white;
+
+  font-family: 'Bebas Neue Bold', sans-serif;
+  font-size: 9.6em;
+}
+#blocker {
+  position: absolute;
+  z-index: 1000;
+
+  background: #000;
+}
+.content {
+  z-index: 10;
+
+  display: flex;
+
+  width: 80vw;
+  margin: 0 auto;
+
+  align-items: center;
+}
+
+.cross-one,
+.cross-two {
+  position: absolute;
+  z-index: 999;
+}
+.cross-one {
+  top: 10%;
+  left: 10%;
+}
+.cross-two {
+   top: 60%;
+   left: 50%;
+}
+
+#main {
+  position: relative;
+
+  display: flex;
+  overflow: hidden;
+
+  justify-content: center;
+  align-content: center;
+}
+#glitchImg {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url(../img/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.content h1 {
+  font-family: 'Bebas Neue Bold', sans-serif;
+  font-size: 9.6rem;
+}
+.content a {
+  display: inline-block;
+
+  margin-top: 6rem;
+  padding: 1.5rem 3rem;
+
+  text-transform: uppercase;
+
+  color: #fff;
+  background: #BE0606;
+  box-shadow: -14px 12px 0px rgba(190, 6, 6, 0.5);
+
+  font-family: 'SF UI Text', sans-serif;
+  font-size: 1.8rem;
+
+}
+#bigTypeRotate {
+  position: absolute;
+  bottom: 15%;
+  left: 60%;
+
+  transform: rotate(-90deg);
+  letter-spacing: 1.5rem;
+
+  color: transparent;
+
+  font-family: 'Bebas Neue Bold', sans-serif;
+  font-size: 9.8rem;
+
+  webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.right_rotate  {
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 80%;
+
+  display: flex;
+  flex-direction: row-reverse;
+
+  transform: rotate(-90deg);
+
+  justify-content: space-between;
+
+}
+.right_rotate li {
+  padding: 0 4rem 0 0;
+
+  text-transform: uppercase;
+
+  font-family: 'SF UI Text', sans-serif;
+  font-size: 1.2rem;
+}
+.right_rotate li a {
+  color: #fff;
+}
+.right_rotate li:first-child {
+  padding: 0;
+}
+#about {
+  position: relative;
+
+  display: flex;
+
+  background: linear-gradient(154.41deg, #000000 2.28%, #212121 86.61%), linear-gradient(0deg, #000000, #000000);
+
+  align-items: center;
+}
+
+#about img {
+  z-index: 1;
+
+  width: 50%;
+}
+#about h1 {
+  position: absolute;
+  z-index: 2;
+  right: 25%;
+
+  font-family: 'SF UI Display', sans-serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+
+}
+
+#about p {
+  position: absolute;
+  bottom: 2%;
+
+  max-width: 500px;
+  margin-top: 10rem;
+
+  font-family: 'SF UI Text', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.red_line {
+  position: absolute;
+  z-index: 2;
+  bottom: 30%;
+  left: 36%;
+
+  width: 20vw;
+  height: 8px;
+
+  background-color: #BE0606;
+}
+
+#backBigType {
+  position: absolute;
+  z-index: 0;
+  top: 20%;
+  right: 0%;
+
+  letter-spacing: 0.15em;
+
+  opacity: 0.1;
+  color: #FFFFFF;
+
+  font-family: 'Bebas Neue Bold', sans-serif;
+  font-size: 15rem;
+}
